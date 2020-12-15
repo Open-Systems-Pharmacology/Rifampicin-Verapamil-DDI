@@ -1552,7 +1552,7 @@
   ],
   "Protocols": [
     {
-      "Name": "Barbarash 1998 - Verapamil - iv 10 mg (Control)",
+      "Name": "Barbarash 1988 - Verapamil - iv 10 mg (Control)",
       "ApplicationType": "Intravenous",
       "DosingInterval": "Single",
       "Parameters": [
@@ -1574,7 +1574,7 @@
       ]
     },
     {
-      "Name": "Barbarash 1998 - Verapamil - po 120 mg (Control)",
+      "Name": "Barbarash 1988 - Verapamil - po 120 mg (Control)",
       "ApplicationType": "Oral",
       "DosingInterval": "Single",
       "Parameters": [
@@ -1596,7 +1596,7 @@
       ]
     },
     {
-      "Name": "Barbarash 1998 - Verapamil - iv 10 mg (with Perpetrator)",
+      "Name": "Barbarash 1988 - Verapamil - iv 10 mg (with Perpetrator)",
       "DosingInterval": "Single",
       "Schemas": [
         {
@@ -1639,7 +1639,7 @@
       "TimeUnit": "h"
     },
     {
-      "Name": "Barbarash 1998 - Verapamil - po 120 mg (with Perpetrator)",
+      "Name": "Barbarash 1988 - Verapamil - po 120 mg (with Perpetrator)",
       "DosingInterval": "Single",
       "Schemas": [
         {
@@ -1683,7 +1683,7 @@
       "TimeUnit": "h"
     },
     {
-      "Name": "Barbarash 1998 - Verapamil - iv 10 mg and po 120 mg (Control)",
+      "Name": "Barbarash 1988 - Verapamil - iv 10 mg and po 120 mg (Control)",
       "DosingInterval": "Single",
       "Schemas": [
         {
@@ -1763,7 +1763,7 @@
       "TimeUnit": "h"
     },
     {
-      "Name": "Barbarash 1998 - Rifampicin - 600 mg (15 days)",
+      "Name": "Barbarash 1988 - Rifampicin - 600 mg (15 days)",
       "DosingInterval": "Single",
       "Schemas": [
         {
@@ -1816,7 +1816,7 @@
   ],
   "Simulations": [
     {
-      "Name": "DDI Control - Verapamil - Barbarash 1998 (iv)",
+      "Name": "DDI Control - Verapamil - Barbarash 1988 (iv)",
       "Model": "4Comp",
       "ObservedData": [
         "Barbarash 1988 - Verapamil IV control - Verapamil - IV - 10 mg - Serum - agg. (n=6)"
@@ -1864,7 +1864,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Barbarash 1998 - Verapamil - iv 10 mg (Control)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Applications|Barbarash 1988 - Verapamil - iv 10 mg (Control)|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 10.0,
           "Unit": "min"
         },
@@ -2083,7 +2083,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Barbarash 1998 - Verapamil - iv 10 mg (Control)"
+            "Name": "Barbarash 1988 - Verapamil - iv 10 mg (Control)"
           }
         }
       ],
@@ -2118,7 +2118,7 @@
             {
               "Name": "Verapamil-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "DDI Control - Verapamil - Barbarash 1998 (iv)|Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+              "Y": "DDI Control - Verapamil - Barbarash 1988 (iv)|Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
@@ -2137,7 +2137,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Undefined\nDDI Control - Verapamil - Barbarash 1998 (iv)\n2020-12-06 10:51"
+          "OriginText": "Undefined\nDDI Control - Verapamil - Barbarash 1988 (iv)\n2020-12-06 10:51"
         }
       ],
       "Interactions": [
@@ -2149,7 +2149,7 @@
       ]
     },
     {
-      "Name": "DDI Control - Verapamil - Barbarash 1998 (po)",
+      "Name": "DDI Control - Verapamil - Barbarash 1988 (po)",
       "Model": "4Comp",
       "ObservedData": [
         "Barbarash 1988 - Verapamil PO control - Verapamil - PO - 120 mg - Serum - agg. (n=6)"
@@ -2197,7 +2197,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Barbarash 1998 - Verapamil - po 120 mg (Control)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Verapamil - po 120 mg (Control)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2416,7 +2416,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Barbarash 1998 - Verapamil - po 120 mg (Control)",
+            "Name": "Barbarash 1988 - Verapamil - po 120 mg (Control)",
             "Formulations": [
               {
                 "Name": "Solution",
@@ -2457,7 +2457,7 @@
             {
               "Name": "Verapamil-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "DDI Control - Verapamil - Barbarash 1998 (po)|Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+              "Y": "DDI Control - Verapamil - Barbarash 1988 (po)|Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
@@ -2476,7 +2476,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Undefined\nDDI Control - Verapamil - Barbarash 1998 (po)\n2020-12-06 10:53"
+          "OriginText": "Undefined\nDDI Control - Verapamil - Barbarash 1988 (po)\n2020-12-06 10:53"
         }
       ],
       "Interactions": [
@@ -2488,7 +2488,7 @@
       ]
     },
     {
-      "Name": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)",
+      "Name": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)",
       "Model": "4Comp",
       "ObservedData": [
         "Barbarash 1988 - Verapamil PO after 2 weeks of Rifampicin therapy - Verapamil - PO - 120 mg - Serum - agg. (n=6)"
@@ -2551,82 +2551,82 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Verapamil - po 120 mg (with Perpetrator)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Verapamil - po 120 mg (with Perpetrator)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2850,7 +2850,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Barbarash 1998 - Verapamil - po 120 mg (with Perpetrator)",
+            "Name": "Barbarash 1988 - Verapamil - po 120 mg (with Perpetrator)",
             "Formulations": [
               {
                 "Name": "Solution",
@@ -2899,7 +2899,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Barbarash 1998 - Rifampicin - 600 mg (15 days)",
+            "Name": "Barbarash 1988 - Rifampicin - 600 mg (15 days)",
             "Formulations": [
               {
                 "Name": "Solution",
@@ -2940,7 +2940,7 @@
             {
               "Name": "Verapamil-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)|Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)|Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
@@ -2949,7 +2949,7 @@
             {
               "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 4
@@ -2969,7 +2969,7 @@
             {
               "Name": "CYP3A4-Liver Periportal-Intracellular-Concentration",
               "X": "Time",
-              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)|Organism|Liver|Periportal|Intracellular|CYP3A4|Concentration in container",
+              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)|Organism|Liver|Periportal|Intracellular|CYP3A4|Concentration in container",
               "CurveOptions": {
                 "Color": "#FF00FF",
                 "LegendIndex": 6
@@ -2977,7 +2977,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Undefined\nDDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)\n2020-12-06 11:15"
+          "OriginText": "Undefined\nDDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)\n2020-12-06 11:15"
         }
       ],
       "Interactions": [
@@ -3029,7 +3029,7 @@
       ]
     },
     {
-      "Name": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+      "Name": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
       "Model": "4Comp",
       "ObservedData": [
         "Barbarash 1988 - Verapamil IV after 2 weeks of Rifampicin therapy - Verapamil - IV - 10 mg - Serum - agg. (n=6)"
@@ -3092,82 +3092,82 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Rifampicin - 600 mg (15 days)|Solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Barbarash 1988 - Rifampicin - 600 mg (15 days)|Solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barbarash 1998 - Verapamil - iv 10 mg (with Perpetrator)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Applications|Barbarash 1988 - Verapamil - iv 10 mg (with Perpetrator)|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 10.0,
           "Unit": "min"
         },
@@ -3387,7 +3387,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Barbarash 1998 - Verapamil - iv 10 mg (with Perpetrator)"
+            "Name": "Barbarash 1988 - Verapamil - iv 10 mg (with Perpetrator)"
           }
         },
         {
@@ -3430,7 +3430,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Barbarash 1998 - Rifampicin - 600 mg (15 days)",
+            "Name": "Barbarash 1988 - Rifampicin - 600 mg (15 days)",
             "Formulations": [
               {
                 "Name": "Solution",
@@ -3471,7 +3471,7 @@
             {
               "Name": "Verapamil-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)|Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)|Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
@@ -3480,7 +3480,7 @@
             {
               "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "Y": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 4
@@ -3499,7 +3499,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Undefined\nDDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)\n2020-12-06 11:16"
+          "OriginText": "Undefined\nDDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)\n2020-12-06 11:16"
         }
       ],
       "Interactions": [
