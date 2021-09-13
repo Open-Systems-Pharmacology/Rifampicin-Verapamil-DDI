@@ -763,14 +763,12 @@
               "CompartmentName": "Intracellular"
             },
             {
-              "Name": "",
-              "TransportDirection": "EffluxBloodCellsToPlasma",
-              "CompartmentName": "P-gp"
+              "Name": "BloodCells",
+              "TransportDirection": "EffluxBloodCellsToPlasma"
             },
             {
-              "Name": "",
-              "TransportDirection": "EffluxInterstitialToPlasma",
-              "CompartmentName": "P-gp"
+              "Name": "VascularEndothelium",
+              "TransportDirection": "EffluxInterstitialToPlasma"
             }
           ],
           "Ontogeny": {
@@ -1247,14 +1245,12 @@
               "CompartmentName": "Intracellular"
             },
             {
-              "Name": "",
-              "TransportDirection": "InfluxPlasmaToBloodCells",
-              "CompartmentName": "OATP1B1"
+              "Name": "BloodCells",
+              "TransportDirection": "InfluxPlasmaToBloodCells"
             },
             {
-              "Name": "",
-              "TransportDirection": "InfluxPlasmaToInterstitial",
-              "CompartmentName": "OATP1B1"
+              "Name": "VascularEndothelium",
+              "TransportDirection": "InfluxPlasmaToInterstitial"
             }
           ]
         },
